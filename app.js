@@ -27,7 +27,7 @@ app.use('/posts', postRouter);
 //Creo un array dove inserisco una lista di almeno 5 post, per ognuno indico : titolo, contenuto, immagine e tags (tags è un array di stringhe)
 
 //Creo  una rotta /bacheca che restituisca un oggetto json con la lista dei post.
-app.get('/bacheca',(req, res) =>{
+app.get('/posts',(req, res) =>{
 
   const posts = [
    {
