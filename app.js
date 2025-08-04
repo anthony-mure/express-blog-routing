@@ -8,7 +8,7 @@ const app = express();
 const port = 3000;
 
 //importo il file router per i posts
-const postRouter = require('./routers/posts.js');
+const postRouter = require('./routers/routerPosts');
 
 //inserisco il middleware dei file statici
 app.use(express.static('public'));
